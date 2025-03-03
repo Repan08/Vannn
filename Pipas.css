@@ -1,0 +1,136 @@
+/* style.css */
+
+/* Reset dasar untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pengaturan dasar untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gaya header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Gaya untuk section proyek intro */
+.project-intro {
+    background-color: #eeeeee;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.project-intro h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.project-intro p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Gaya untuk detail proyek */
+.project-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 
+}
+/*
+.project-details .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+.project-image img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;  
+}
+
+.project-info {
+    width: 45%;
+    padding: 20px;
+}
+
+.project-info h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.project-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.project-info a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-info a:hover {
+    color: #007bff;
+}
+
+/* Gaya footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 14px;
+}
