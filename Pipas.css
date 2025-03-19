@@ -73,16 +73,16 @@ header nav ul li a:hover {
 .project-details {
     display: flex;
     justify-content: space-between;
-    padding: 
+    padding: 0;
 }
-/*
+
 .project-details .container {
     width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}*/
+}
 
 .project-image img {
     width: 100%;

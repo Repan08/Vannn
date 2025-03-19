@@ -4,35 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Websiteku</title>
-    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" type="text/css" href="style/website.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" href="assets/logo_wikrama-removebg-preview.png">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
-    <!-- Navigasi -->
-    <div class="navigasi">
-        <div class="logo">
-            <h2>Biodataku</h2>
-        </div>
-        <div class="menu">
-            <ul>
+    <header>
+        <nav class="navbar">
+            <a id="logo" href="">
+                <h1 class="logo">Vann</h1>
+            </a>
+    
+            <div id="menu-icon" class="menu-icon">
+                <i class="ph ph-list"></i>
+            </div>
+            <ul id="menu-list" class="hidden">
                 <li><a href="#hai">Hai</a></li>
                 <li><a href="#pendidikan">Pendidikan</a></li>
                 <li><a href="#softskill">Softskill</a></li>
                 <li><a href="#kontak">Kontak</a></li>
-                <li><a href="pipas.html">Pipas</a></li>
+                <li><a href="web/pipas.html">Pipas</a></li>
                 <div class="dropdown">
-                    <button class="dropbtn">Project</button>
-                    <div class="dropdown-content">
-                        <a href="projeckP.html">Pipas (Artikel)</a>
-                        <a href="#">B Sunda (Artikel)</a>
-                        <a href="coba.html">Sejarah (Artikel)</a>
-                        <a href="#">MTK (Calculator)</a>
-                    </div>
+                  <button class="dropbtn">Project</button>
+                  <div class="dropdown-content">
+                    <a href="web/projeckP.html">Pipas (Artikel)</a>
+                    <a href="sunda/sunda.html">B Sunda (Artikel)</a>
+                    <a href="web/coba.html">Sejarah (Artikel)</a>
+                    <a href="#">MTK (Calculator)</a>
+                  </div>
                 </div>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
+      
 
     <!-- Ini Banner -->
     <div class="banner" id="hai">
@@ -46,49 +51,43 @@
         </div>
     </div>
 
-    <!-- Ini Pendidikanku -->
-    <br id="pendidikan"><br><br><br><br>
-    <div class="box-pendidikan">
-        <h1>Riwayat Pendidikan</h1>
-        <div class="box-kiri">
-            <img src="assets/Icon-sd.png" alt="SD Icon">
-            <h3>Sekolah Dasar</h3>
-            <p>Saya bersekolah dasar di SDN TENJOAYU, Tenjoayu, Kec. Cicurug, Kabupaten Sukabumi, Jawa Barat 43359</p>
+    <div class="container">
+        <!-- Education Section -->
+        <div class="grid">
+            <div class="card" id="pendidikan">
+                <img src="assets/Icon-sd.png" alt="Icon representing Sekolah Dasar">
+                <h2>Sekolah Dasar</h2>
+                <p>Saya bersekolah dasar di SDN TENJOAYU, Tenjoayu, Kec. Cicurug, Kabupaten Sukabumi, Jawa Barat 43359</p>
+            </div>
+            <div class="card">
+                <img src="assets/Icon-smp.png" alt="Icon representing Sekolah Menengah Pertama">
+                <h2>Sekolah Menengah Pertama</h2>
+                <p>Saya bersekolah dasar di MTs Assa'adah, Kp. Kurnia, Kec. Cicurug, Kabupaten Sukabumi, Jawa Barat 43359</p>
+            </div>
+            <div class="card">
+                <img src="assets/Icon-sma.png" alt="Icon representing Sekolah Menengah Kejuruan">
+                <h2>Sekolah Menengah Kejuruan</h2>
+                <p>Saya bersekolah dasar di SMK WIKRAMA BOGOR, Jl. Raya Wangun, RT.01/RW.06, Sindangsari, Kec. Bogor Timur, Kota Bogor, Jawa Barat 16146</p>
+            </div>
         </div>
-
-        <div class="box-tengah">
-            <img src="assets/Icon-smp.png" class="smp" alt="SMP Icon">
-            <h3>Sekolah Menengah Pertama</h3>
-            <p>Saya bersekolah dasar di MTS Assa'adah, Jl. Kaum Kaler No.1, Cicurug, Kec. Cicurug, Kabupaten Sukabumi, Jawa Barat 43359</p>
-        </div>
-
-        <div class="box-kanan">
-            <img src="assets/Icon-sma.png" class="smk" alt="SMK Icon">
-            <h3>Sekolah Menengah Kejuruan</h3>
-            <p>Saya bersekolah dasar di SMK WIKRAMA BOGOR, Jl. Raya Wangun, RT.01/RW.06, Sindangsari, Kec. Bogor Tim., Kota Bogor, Jawa Barat 16146</p>
-        </div>
-    </div>
-
-    <!-- Ini Softskill -->
-    <div class="box-softskill">
-        <br id="softskill"><br><br><br><br>
-        <h1>Softskill ku</h1>
-        <div class="box-kiri">
-            <img src="assets/icon-2.png" alt="SEO Icon">
-            <h3>Seo Optimization</h3>
-            <p>SEO adalah upaya mengoptimalkan website untuk mendapatkan perangkat teratas di hasil pencarian. Dengan mendapatkan rangking tinggi di hasil pencarian, potensi trafik organik anda pun meningkat.</p>
-        </div>
-        
-        <div class="box-tengah">
-            <img src="assets/icon-3.png" alt="App Development Icon">
-            <h3>App Development</h3>
-            <p>Development adalah salah satu proyek IT yang berfokus pada penciptaan atau pengembangan perangkat lunak. Software Development dapat didetailkan lagi menjadi proses.</p>
-        </div>
-        
-        <div class="box-kanan">
-            <img src="assets/icon-1.png" alt="Web Design Icon">
-            <h3>Web Design</h3>
-            <p>Web Design adalah suatu kegiatan yang bertujuan untuk merancang aplikasi dan tampilannya dengan basis web menggunakan bahasa pemrograman.</p>
+        <!-- Soft Skills Section -->
+        <h2 class="section-title">Softskill ku</h2>
+        <div class="grid">
+            <div class="card" id="softskill">
+                <img src="assets/icon-1.png" alt="Icon representing SEO Optimization">
+                <h2>Seo Optimization</h2>
+                <p>SEO adalah upaya mengoptimalkan website untuk mendapatkan peringkat teratas di hasil pencarian. Dengan mendapatkan rangking tinggi di hasil pencarian, potensi trafik organik anda pun meningkat.</p>
+            </div>
+            <div class="card">
+                <img src="assets/icon-3.png" alt="Icon representing App Development">
+                <h2>App Development</h2>
+                <p>Development adalah proses pembuatan aplikasi IT untuk berbagai keperluan, baik untuk perangkat mobile maupun desktop.</p>
+            </div>
+            <div class="card">
+                <img src="assets/icon-2.png" alt="Icon representing Web Design">
+                <h2>Web Design</h2>
+                <p>Web design adalah suatu kegiatan yang bertujuan untuk merancang aplikasi dan tampilannya dengan basis web menggunakan teknologi pemrograman.</p>
+            </div>
         </div>
     </div>
 
@@ -102,11 +101,20 @@
 <div class="footer">
     <p>Copyright : M.Repan Ramadan NIS 12410557 PPLG X-5</p>
 </div>
-    
+<script type="text/javascript">
+    const menuIcon = document.getElementById("menu-icon");
+const menuList = document.getElementById("menu-list");
 
+menuIcon.addEventListener("click", () => {
+  menuList.classList.toggle("hidden");
+});ocument.addEventListener("DOMContentLoaded",function() {
+        const menuToggle = document.getElemendById("menu-toggle");
+        const menu =document.getElementById("menu");
 
-
-
-
+        menuToggle.addEventListener("click",function() {
+            menu.classList.toggle("active");
+        });
+    });
+</script>
 </body>
 </html>
